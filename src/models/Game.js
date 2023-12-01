@@ -8,16 +8,16 @@ tittle:{
     allowNull:false
 },
 startSAt:{
-    type:DataTypes.STRING,
+    type: DataTypes.DATE,
     allowNull:false,
     defaultValue: DataTypes.NOW
 },
-EndsAt:DataTypes.STRING,
+EndsAt:DataTypes.DATE,
 Score:{
     type:DataTypes.INTEGER,
     allowNull:false,
     defaultValue:0
 },
-duration:DataTypes.TIME
+ duration:DataTypes.TIME
 })
 export default Game;
